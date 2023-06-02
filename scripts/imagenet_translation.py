@@ -97,7 +97,6 @@ def main():
     data = load_source_data_for_domain_translation(
         batch_size=args.batch_size,
         image_size=args.image_size,
-        classes=source
     )
 
     for i, (batch, extra) in enumerate(data):
